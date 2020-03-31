@@ -2,7 +2,7 @@
 
 Simple arcade game written in TypeScript.
 
-![Screenshot](https://github.com/o-su/warplanes/screenshot.png "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/o-su/warplanes/master/screenshot.png "Screenshot")
 
 ## Graphics
 
