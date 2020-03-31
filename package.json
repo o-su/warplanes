@@ -1,0 +1,26 @@
+{
+    "name": "warplanes",
+    "version": "1.0.0",
+    "description": "Simple arcade game.",
+    "author": "o-su",
+    "license": "MIT",
+    "main": "dist/bundle.js",
+    "private": true,
+    "scripts": {
+        "clean": "rm -rf node_modules/",
+        "build": "cd ./src && browserify index.ts -p [ tsify ] > ../dist/bundle.js"
+    },
+    "devDependencies": {
+        "typescript": "*",
+        "browserify": "*",
+        "tsify": "*",
+        "prettier": "*",
+        "tslint": "*"
+    },
+    "prettier": {
+        "useTabs": false,
+        "tabWidth": 4,
+        "printWidth": 100,
+        "singleQuote": false
+    }
+}
